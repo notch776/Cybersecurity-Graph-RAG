@@ -3,6 +3,8 @@ This project aims to advance cybersecurity knowledge dissemination, visualizatio
 The knowledge graph platform uniquely integrates three core cybersecurity domains: software vulnerabilities, attack group alerts, and APT (Advanced Persistent Threat) organization profiles—ensuring comprehensive coverage. It supports both direct and multi-hop searches, enhanced by real-time query suggestions, fuzzy matching, and personalized recommendations to deepen user exploration. Built with a modular architecture—decoupling front-end, back-end, and database—the system is designed for maintainability and future scalability. Additional features include interactive statistical visualizations and keyword-based tracking of APT activities.  
 A key technical innovation lies in the search algorithm. While leveraging state-of-the-art Retrieval-Augmented Generation (RAG), the project tailors the pipeline specifically for Neo4j graph databases. This adaptation enables large language models to effectively retrieve and reason over graph-structured data. The optimized workflow dramatically reduces token usage and improves search efficiency, while preserving both breadth (coverage of relevant nodes) and depth (multi-hop reasoning) in responses. As a result, the system delivers accurate, context-aware answers with strong inferential capabilities—bridging the gap between unstructured natural language queries and structured cyber threat intelligence.  
 Overall, the platform not only consolidates fragmented cybersecurity knowledge into a unified, searchable graph but also pioneers an efficient, graph-native RAG framework that sets a new standard for domain-specific QA systems in threat intelligence.  
+Innovative Knowledge Graph-based RAG Algorithm Pipeline:  
+<img width="1735" height="1034" alt="flow" src="https://github.com/user-attachments/assets/d6b71d40-ba47-4251-883a-664f34cc9d67" />  
 
 ## Framework  
 <img width="845" height="486" alt="image" src="https://github.com/user-attachments/assets/a9141af7-acd8-4f17-a0ce-2dd704456d8d" />  
@@ -76,13 +78,15 @@ Through the get_community_info function, the system acquires community informati
 community node example:  
 <img width="889" height="567" alt="image" src="https://github.com/user-attachments/assets/4a6ed406-d7d1-49e7-a593-d6b95091e4cc" />  
 
-7. Sub-question Decomposition  
+6. Sub-question Decomposition  
 In the llm_judge_and_select_with_subq function, the LLM generates "intentional sub-questions" for each newly selected node, specifying:  
 **Why was this node chosen?**  
 **What information is expected from this node?**  
 **How will this information help answer the final question?**  
 After each round of queries, the system generates answers for previous sub-questions based on acquired results, forming QA pairs stored in qa_cache, building a logical chain of knowledge for exploring paths and aiding in generating the final answer.
-  
+Decomposing subproblem procedural steps:
+<img width="946" height="221" alt="image" src="https://github.com/user-attachments/assets/c969c307-bc77-425d-bfa0-72f4c9862185" />
+
 8. LLM Prompt Design  
 The system provides highly structured information to the LLM, primarily including:  
 **Node Summaries**: Contain basic information like labels, community IDs, and parent node relationships, providing graph structure details.  
@@ -102,7 +106,10 @@ Below is the base node (i.e., the starting node for reasoning in the question):
 Below is the target node (i.e., the node containing the information that should appear in the answer):  
 <img width="558" height="359" alt="image" src="https://github.com/user-attachments/assets/3b40b1ce-057b-49d9-a256-9b81322c1fe9" />  
 
-This translation captures the essence of the original text, describing the steps and processes involved in initializing, configuring, and executing an advanced intelligent Q&A system leveraging graph databases and large language models.
+
+
+
+
 
 
 
