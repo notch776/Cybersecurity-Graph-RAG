@@ -1,2 +1,8 @@
 # Cybersecurity-Graph-RAG
-Cybersecurity Knowledge Graph-Based Intelligent Question-Answering System using LLM &amp; Graph RAG
+This project aims to advance cybersecurity knowledge dissemination, visualization, and analysis of threat actor relationships in China. It introduces multiple innovations beyond existing research and tools.
+
+The knowledge graph platform uniquely integrates three core cybersecurity domains: software vulnerabilities, attack group alerts, and APT (Advanced Persistent Threat) organization profiles—ensuring comprehensive coverage. It supports both direct and multi-hop searches, enhanced by real-time query suggestions, fuzzy matching, and personalized recommendations to deepen user exploration. Built with a modular architecture—decoupling front-end, back-end, and database—the system is designed for maintainability and future scalability. Additional features include interactive statistical visualizations and keyword-based tracking of APT activities.
+
+A key technical innovation lies in the search algorithm. While leveraging state-of-the-art Retrieval-Augmented Generation (RAG), the project tailors the pipeline specifically for Neo4j graph databases. This adaptation enables large language models to effectively retrieve and reason over graph-structured data. The optimized workflow dramatically reduces token usage and improves search efficiency, while preserving both breadth (coverage of relevant nodes) and depth (multi-hop reasoning) in responses. As a result, the system delivers accurate, context-aware answers with strong inferential capabilities—bridging the gap between unstructured natural language queries and structured cyber threat intelligence.
+
+Overall, the platform not only consolidates fragmented cybersecurity knowledge into a unified, searchable graph but also pioneers an efficient, graph-native RAG framework that sets a new standard for domain-specific QA systems in threat intelligence.
