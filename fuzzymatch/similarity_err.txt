@@ -1,0 +1,126 @@
+Extracting Confidential Data from Cache|Lifting Sensitive Data Embedded in Cache
+Domain Bit Manipulation|BitSquatting
+Cross-Site Scripting on Error Pages|XSS Targeting Error Pages
+Feature Abuse|Functionality Misuse
+Code Injection into Running Process|Inclusion of Code in Existing Process
+Data Insertion During Setup|Data Injected During Configuration
+Electromagnetic Signal Eavesdropping|Electromagnetic Side-Channel Attack
+Numeric Overflow Attacks|Integer Attacks
+Resource Exhaustion Exposure|Resource Leak Exposure
+Exploiting Timing Conflicts|Leveraging Race Conditions
+Log Manipulation and Forgery|Log Injection-Tampering-Forging
+Frame-Based Cross-Site Scripting|Cross Frame Scripting (XFS)
+Cross-Site Scripting via Repeated Characters|XSS Using Doubled Characters
+Event Manipulation via API Interference|Transaction or Event Tampering via Application API Manipulation
+Compromised Software|Infected Software
+Rogue Code Added by Authorized Developer|Malicious Logic Inserted Into Product Software by Authorized Developer
+Software Tampering|Development Alteration
+Malicious Code Added via Configuration Control|Malicious Logic Insertion into Product Software via Configuration Management Manipulation
+Malicious Code via Third-Party Dependencies|Malicious Logic Insertion into Product Software via Inclusion of 3rd Party Component Dependency
+Forging a Fraudulent CA Certificate|Creating a Rogue Certification Authority Certificate
+HTTP Parameter Tampering|HTTP Parameter Pollution (HPP)
+API Signature Forgery via Hash Extension|Web Services API Signature Forgery Leveraging Hash Function Extension Weakness
+Cross-Origin Timing Analysis|Cross-Domain Search Timing
+Padding Oracle Decryption Attack|Padding Oracle Crypto Attack
+Persistent Tracking Cookie|Evercookie
+Proxy Misuse|Transparent Proxy Abuse
+Cross-Site User Tracking|Cross Site Identification
+Signature Forgery|Signature Spoof
+Key Theft for Signature Forgery|Signature Spoofing by Key Theft
+Fraudulent Root Certificate|Malicious Root Certificate
+TCP Overload Attack|TCP Flood
+Client-Side XML Exploitation|XML Client-Side Attack
+Password Guessing Attack|Password Brute Forcing
+XML Resource Exhaustion|XML Quadratic Expansion
+Selecting Message Identifiers|Choosing Message Identifier
+Unauthorized Resource Consumption|Unauthorized Use of Device Resources
+Cellular Network Data Injection|Cellular Data Injection
+Nested Script Embedding|Embedding Scripts within Scripts
+Reverse Engineering to Reveal Hidden Features|Reverse Engineer an Executable to Expose Assumed Hidden Functionality or Content
+Malicious Code by Authorized Developer|Malicious Logic Inserted Into Product Software by Authorized Developer
+Signal Amplification|Amplification
+Cross-Site Scripting via Query Strings|XSS Through HTTP Query Strings
+XML Schema Manipulation|XML Schema Poisoning
+Security Feature Evasion|Functionality Bypass
+Alternate Data Stream Exploitation|Windows ::DATA Alternate Data Stream
+Cognitive Influence Tactics|Influence via Modes of Thinking
+Active MITM to Bypass Origin Policy|Leveraging Active Man in the Middle Attacks to Bypass Same Origin Policy
+Deactivating Security Tools|Disable Security Software
+File Size Inflation|Artificially Inflate File Sizes
+Web Input to File System Manipulation|Manipulating Web Input to File System Calls
+HTTP Request Division|HTTP Request Splitting
+IP Address Restriction|IP Address Blocking
+Cross-Site Scripting with Invalid Characters|XSS Using Invalid Characters
+Syslog String Format Exploit|String Format Overflow in syslog()
+System Value Reset|Force the System to Reset Values
+DLL Virus Embedding|Embed Virus into DLL
+Malicious Content Propagation via Navigation|Navigation Remapping To Propagate Malicious Content
+XML Resource Overload|XML Quadratic Expansion
+ICMP Error Message Probing|ICMP IP 'ID' Field Error Message Probe
+Connection Termination|Connection Reset
+Intent Forgery|Intent Spoof
+Opaque Token Manipulation|Manipulating Opaque Client-based Data Tokens
+HTTP Response Injection|HTTP Response Smuggling
+Overlay Frame Attack|iFrame Overlay
+Cross-Zone Script Execution|Cross Zone Scripting
+Malicious Software Installation|Malicious Software Implanted
+Social Engineering Pretext|Pretexting
+Sandbox Escape via Signed Code|Escaping a Sandbox by Calling Signed Code in Another Language
+Search Path Hijacking|Search Order Hijacking
+Fraudulent Entity Creation|Counterfeit Organizations
+System Obstruction|Obstruction
+Documentation Sabotage|Documentation Alteration to Produce Under-performing Systems
+Network Host Detection|Host Discovery
+Web Protocol Manipulation|Web Services Protocol Manipulation
+Data Exchange Protocol Tampering|Data Interchange Protocol Manipulation
+Physical Lock Bypassing|Lock Picking
+XML Parser Exploitation|XML Parser Attack
+Data Source Spoofing|Fake the Source of Data
+TCP Connection Scanning|TCP Connect Scan
+Fault Induction|Fault Injection
+System Information Probing|Query System for Information
+Signature Impersonation|Signature Spoof
+HTTP Response Division|HTTP Response Splitting
+Reflection-Based Injection|Reflection Injection
+TCP SYN Scanning|TCP SYN Ping
+Bypassing Validation with Slashes and Encoding|Using Slashes and URL Encoding Combined to Bypass Validation Logic
+Data Interception|Interception
+Malicious Code via Third-Party Components|Malicious Logic Insertion into Product Software via Inclusion of 3rd Party Component Dependency
+Shared Resource Tampering|Shared Data Manipulation
+TCP Sequence Probing|TCP Sequence Number Probe
+Resource Over-Allocation|Excessive Allocation
+Shared File/Directory Detection|Identify Shared Files/Directories on System
+Alternative Encoding Exploitation|Leverage Alternate Encoding
+DNS Redirect Attack|DNS Rebinding
+Resource Contamination|Contaminate Resource
+Format String Exploitation|Format String Injection
+Rootkit Installation|Install Rootkit
+Buffer Overflow via Env Variables|Buffer Overflow via Environment Variables
+HTTP Method Tampering|HTTP Verb Tampering
+Binary Replacement|Replace Binaries
+Process Mapping|Process Footprinting
+Telecom Signal Manipulation|Blue Boxing
+Audio/Video Peripheral Probing|Probe Audio and Video Peripherals
+Hardware Tampering|Hardware Integrity Attack
+Network Flooding|Flooding
+Alternate IP Encoding|Using Alternative IP Address Encodings
+Physical Lock Evasion|Bypassing Physical Locks
+Account Profiling|Account Footprinting
+Padding Oracle Cryptographic Attack|Padding Oracle Crypto Attack
+Session Credential Prediction|Session Credential Falsification through Prediction
+Malicious File Usage|Using Malicious Files
+Application Code Interception|Sniff Application Code
+DTD Manipulation|DTD Injection
+Channel Interference|Communication Channel Manipulation
+Action Impersonation|Action Spoofing
+Input Fuzz Testing|Fuzzing
+Corrupted File Enforcement|Force Use of Corrupted Files
+
+
+
+
+
+
+
+
+

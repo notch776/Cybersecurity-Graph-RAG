@@ -1,0 +1,117 @@
+Lifting Sensensitive Data Embedded in Cache|Lifting Sensitive Data Embedded in Cache
+BitSquatting'|BitSquatting
+XSS Targeting Error Pages)|XSS Targeting Error Pages
+Functionality Misuse]|Functionality Misuse
+Inclusion of Code in Existing Process(|Inclusion of Code in Existing Process
+Data Injected During Configguration|Data Injected During Configuration
+Electromagnetic Side-Channel Attack"|Electromagnetic Side-Channel Attack
+Integer Attacks\|Integer Attacks
+Resource Leak Exposur|Resource Leak Exposure
+Leveraging Race Conditions'|Leveraging Race Conditions
+Log Injection-Tampering-Forging;|Log Injection-Tampering-Forging
+Cross Frame Scripting XFS|Cross Frame Scripting (XFS)
+XSS Using Doubledd Characters|XSS Using Doubled Characters
+Transaction or Event Tampering via Application API Manipulation]|Transaction or Event Tampering via Application API Manipulation
+Choosing Message Identifier'|Choosing Message Identifier
+Unauthorized Use of Device Resourcess|Unauthorized Use of Device Resources
+Cellular Data Injection"|Cellular Data Injection
+Embedding Scripts within Scripts(|Embedding Scripts within Scripts
+Reverse Engineer an Executable to Expose Assumed Hidden Functionality or Conttent|Reverse Engineer an Executable to Expose Assumed Hidden Functionality or Content
+Malicious Logic Inserted Into Product Software by Authorized Developer'|Malicious Logic Inserted Into Product Software by Authorized Developer
+Amplification}|Amplification
+XSS Through HTTP Query Stringss|XSS Through HTTP Query Strings
+XML Schema Poisoning]|XML Schema Poisoning
+Functionality Bypass"|Functionality Bypass
+Windows ::DATA Alternate Data Stream)|Windows ::DATA Alternate Data Stream
+Influence via Modes of Thinking'|Influence via Modes of Thinking
+Leveraging Active Man in the Middle Attacks to Bypass Same Origin Policy]|Leveraging Active Man in the Middle Attacks to Bypass Same Origin Policy
+Disable Security Software(|Disable Security Software
+Artificially Inflate File Sizes'|Artificially Inflate File Sizes
+Manipulating Web Input to File System Calls"|Manipulating Web Input to File System Calls
+HTTP Request Splitting]|HTTP Request Splitting
+IP Address Blocking)|IP Address Blocking
+XSS Using Invalid Characters'|XSS Using Invalid Characters
+String Format Overflow in syslog(|String Format Overflow in syslog()
+Force the System to Reset Valuess|Force the System to Reset Values
+Embed Virus into DLL'|Embed Virus into DLL
+Navigation Remapping To Propagate Malicious Content]|Navigation Remapping To Propagate Malicious Content
+XML Quadratic Expansion"|XML Quadratic Expansion
+ICMP IP 'ID' Field Error Message Probe'|ICMP IP 'ID' Field Error Message Probe
+Connection Reset)|Connection Reset
+Intent Spoof]|Intent Spoof
+Manipulating Opaque Client-based Data Tokens"|Manipulating Opaque Client-based Data Tokens
+HTTP Response Smuggling'|HTTP Response Smuggling
+iFrame Overlay]|iFrame Overlay
+Cross Zone Scripting(|Cross Zone Scripting
+Malicious Software Implanted'|Malicious Software Implanted
+Pretexting}|Pretexting
+Escaping a Sandbox by Calling Signed Code in Another Language'|Escaping a Sandbox by Calling Signed Code in Another Language
+Search Order Hijacking]|Search Order Hijacking
+Counterfeit Organizations"|Counterfeit Organizations
+Obstruction'|Obstruction
+Documentation Alteration to Produce Under-performing Systems]|Documentation Alteration to Produce Under-performing Systems
+Host Discovery"|Host Discovery
+Web Services Protocol Manipulation'|Web Services Protocol Manipulation
+Data Interchange Protocol Manipulation]|Data Interchange Protocol Manipulation
+Lock Picking"|Lock Picking
+XML Parser Attack'|XML Parser Attack
+Fake the Source of Data]|Fake the Source of Data
+TCP Connect Scan"|TCP Connect Scan
+Fault Injection'|Fault Injection
+Query System for Information]|Query System for Information
+Signature Spoof"|Signature Spoof
+HTTP Response Splitting'|HTTP Response Splitting
+Reflection Injection]|Reflection Injection
+TCP SYN Ping"|TCP SYN Ping
+Using Slashes and URL Encoding Combined to Bypass Validation Logic'|Using Slashes and URL Encoding Combined to Bypass Validation Logic
+Interception]|Interception
+Malicious Logic Insertion into Product Software via Inclusion of 3rd Party Component Dependency"|Malicious Logic Insertion into Product Software via Inclusion of 3rd Party Component Dependency
+Shared Data Manipulation'|Shared Data Manipulation
+TCP Sequence Number Probe]|TCP Sequence Number Probe
+Excessive Allocation"|Excessive Allocation
+Identify Shared Files/Directories on System'|Identify Shared Files/Directories on System
+Leverage Alternate Encoding]|Leverage Alternate Encoding
+DNS Rebinding"|DNS Rebinding
+Contaminate Resource'|Contaminate Resource
+Format String Injection]|Format String Injection
+Install Rootkit"|Install Rootkit
+Buffer Overflow via Environment Variables'|Buffer Overflow via Environment Variables
+HTTP Verb Tampering]|HTTP Verb Tampering
+Replace Binaries"|Replace Binaries
+Process Footprinting'|Process Footprinting
+Blue Boxing]|Blue Boxing
+Probe Audio and Video Peripherals"|Probe Audio and Video Peripherals
+Hardware Integrity Attack'|Hardware Integrity Attack
+Flooding]|Flooding
+Using Alternative IP Address Encodings"|Using Alternative IP Address Encodings
+Bypassing Physical Locks'|Bypassing Physical Locks
+Account Footprinting]|Account Footprinting
+Padding Oracle Crypto Attack"|Padding Oracle Crypto Attack
+Session Credential Falsification through Prediction'|Session Credential Falsification through Prediction
+Using Malicious Files]|Using Malicious Files
+Sniff Application Code"|Sniff Application Code
+DTD Injection'|DTD Injection
+Communication Channel Manipulation]|Communication Channel Manipulation
+Action Spoofing"|Action Spoofing
+Fuzzing'|Fuzzing
+Force Use of Corrupted Files]|Force Use of Corrupted Files
+Infected@Software|Infected Software
+Malicious#Logic#Inserted|Malicious Logic Inserted Into Product Software by Authorized Developer
+Development*Alteration|Development Alteration
+Malicious_Logic_Insertion|Malicious Logic Insertion into Product Software via Configuration Management Manipulation
+3rd$Party$Component|Malicious Logic Insertion into Product Software via Inclusion of 3rd Party Component Dependency
+Rogue&Certification&Authority|Creating a Rogue Certification Authority Certificate
+HTTP%Parameter%Pollution|HTTP Parameter Pollution (HPP)
+Web^Services^API^Forgery|Web Services API Signature Forgery Leveraging Hash Function Extension Weakness
+Cross-DomainSearchTiming|Cross-Domain Search Timing
+Padding#Oracle#Crypto|Padding Oracle Crypto Attack
+Ever@cookie|Evercookie
+Transparent$Proxy$Abuse|Transparent Proxy Abuse
+Cross_Site_Identification|Cross Site Identification
+Signature#Spoof|Signature Spoof
+SignatureSpoofingKey*Theft|Signature Spoofing by Key Theft
+Malicious@Root@Certificate|Malicious Root Certificate
+TCP$Flood|TCP Flood
+XML&Client&Side&Attack|XML Client-Side Attack
+Password%Brute%Forcing|Password Brute Forcing
+XML#Quadratic#Expansion|XML Quadratic Expansion

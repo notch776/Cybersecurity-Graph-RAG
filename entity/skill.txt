@@ -1,0 +1,219 @@
+n.name
+::SKILL:In order to discover unrestricted resources, the attacker does not need special tools or skills. He only has to observe the resources or access mechanisms invoked as each action is performed and then try and access those access mechanisms directly.:LEVEL:Low::
+::SKILL:An attacker can simply overflow a buffer by inserting a long string into an attacker-modifiable injection vector. The result can be a DoS.:LEVEL:Low::SKILL:Exploiting a buffer overflow to inject malicious code into the stack of a software system or even the heap can require a higher skill level.:LEVEL:High::
+::SKILL:In most cases, overflowing a buffer does not require advanced skills beyond the ability to notice an overflow and stuff an input variable with content.:LEVEL:Low::SKILL:In cases of directed overflows, where the motive is to divert the flow of the program or application as per the adversaries' bidding, high level skills are required. This may involve detailed knowledge of the target system architecture and kernel.:LEVEL:High::
+::SKILL:The attacker needs to be aware of SSI technology, determine the nature of injection and be able to craft input that results in the SSI directives being executed.:LEVEL:Medium::
+::SKILL:Easy to use tools exist to automate this attack.:LEVEL:Low::
+::SKILL:Crafting the proper malicious site and luring the victim to this site are not trivial tasks.:LEVEL:High::
+::SKILL:Ability to craft malicious scripts or find them elsewhere and ability to identify functionality that is running web controls in the local zone and to find an injection vector into that functionality:LEVEL:Medium::
+::SKILL:Good understanding of the HTTP protocol and the parsing mechanisms employed by various web servers:LEVEL:Medium::
+::SKILL:Understanding of the HTTP protocol and an ability to craft a malicious script:LEVEL:Medium::
+::SKILL:The attacker most likely has to be familiar with the internal functionality of the system to launch this attack. Without that knowledge, there are not many feedback mechanisms to give an attacker the indication of how to perform command injection or whether the attack is succeeding.:LEVEL:High::
+::SKILL:Knowledge of general SQL injection techniques and subtleties of the ORM framework is needed:LEVEL:Medium::
+::SKILL:To modify file name or file extension:LEVEL:Low::SKILL:To use misclassification to force the Web server to disclose configuration information, source, or binary data:LEVEL:Medium::
+::SKILL:If the attacker is able to gain good understanding of the system's database schema:LEVEL:Medium::SKILL:If the attacker has to perform SQL injection blindly:LEVEL:High::
+::SKILL:Once this attack pattern is developed and understood, creating an exploit is not very complex.The attacker needs to have knowledge of the URLs that need to be accessed on the target system to request the JSON objects.:LEVEL:Medium::
+::SKILL:The attack simply requires basic scripting ability to automate the exploration of the search space. More sophisticated attackers may be able to use more advanced methods to reduce the search space and increase the speed with which the secret is located.:LEVEL:Low::
+nan
+::SKILL:All the attacker needs to discover is the format of the messages on the channel/distribution means and the particular identifier used within the messages.:LEVEL:Low::
+::SKILL:Simple command line attacks or to inject the malicious payload in a web page.:LEVEL:Low::SKILL:Customizing attacks to bypass non trivial filters in the application.:LEVEL:Medium::
+::SKILL:To issue the request to URL without given a specific file name:LEVEL:Low::SKILL:To bypass the access control of the directory of listings:LEVEL:High::
+::SKILL:In a web based scenario, the client controls the data that it submitted to the server. So anybody can try to send malicious data and try to bypass the authentication mechanism.:LEVEL:Low::SKILL:Some more advanced attacks may require knowledge about protocols and probing technique which help controlling a variable. The malicious user may try to understand the authentication mechanism in order to defeat it.:LEVEL:High::
+::SKILL:To create symlinks:LEVEL:Low::SKILL:To identify the files and create the symlinks during the file operation time window:LEVEL:High::
+::SKILL:In order to discover format string vulnerabilities it takes only low skill, however, converting this discovery into a working exploit requires advanced knowledge on the part of the adversary.:LEVEL:High::
+::SKILL:The attacker needs to have knowledge of LDAP, especially its query syntax.:LEVEL:Medium::
+::SKILL:To inject the malicious payload in a web page:LEVEL:Low::SKILL:To bypass non trivial filters in the application:LEVEL:High::
+::SKILL:To achieve a denial of service, an attacker can simply overflow a buffer by inserting a long string into an attacker-modifiable injection vector.:LEVEL:Low::SKILL:Exploiting a buffer overflow to inject malicious code into the stack of a software system or even the heap requires a more in-depth knowledge and higher skill level.:LEVEL:High::
+::SKILL:To overwrite/modify targeted cache:LEVEL:Medium::
+::SKILL:To overwrite/modify targeted DNS cache:LEVEL:Medium::
+::SKILL:To send small XML messages:LEVEL:Low::SKILL:To use distributed network to launch the attack:LEVEL:High::
+::SKILL:The attacker has to identify injection vector, identify the specific commands, and optionally collect the output, i.e. from an interactive session.:LEVEL:Medium::
+::SKILL:Adversaries can obtain and set up open-source network sniffing tools easily.:LEVEL:Low::
+::SKILL:To modify the entries in the configuration file pointing to malicious libraries:LEVEL:Low::SKILL:To force symlink and timing issues for redirecting access to libraries:LEVEL:Medium::SKILL:To reverse engineering the libraries and inject malicious code into the libraries:LEVEL:High::
+::SKILL:A variety of password cracking tools and dictionaries are available to launch this type of an attack.:LEVEL:Low::
+::SKILL:Spear phishing attacks require specific knowledge of the victims being targeted, such as which bank is being used by the victims, or websites they commonly log into (Google, Facebook, etc).:LEVEL:Medium::
+::SKILL:The adversary knows how to send HTTP request, run the scan tool.:LEVEL:Low::
+::SKILL:To identify and execute against an over-privileged system interface:LEVEL:Low::
+::SKILL:Attacker knows how to send HTTP request, SQL query to a web application.:LEVEL:Low::
+::SKILL:The attacker need inject values into the global parameters to the Flash movie and understand the parent HTML document DOM structure. The attacker need be smart enough to convince the victim to his crafted link.:LEVEL:Medium::
+::SKILL:knowledge of Flash internals, parameters and remote referencing.:LEVEL:Medium::
+::SKILL:To achieve a redirection and use of less trusted source, an adversary can simply edit content such as XML payload or HTML files that are sent to client machine.:LEVEL:Low::SKILL:Exploiting a client side vulnerability to inject malicious scripts into the browser's executable process.:LEVEL:High::
+::SKILL:The attacker needs to have knowledge of Flash, especially how to insert content the executes commands.:LEVEL:Medium::
+::SKILL:Manual or user-assisted attacks require deceptive mechanisms to trick the user into clicking a link or downloading and installing software. Automated update attacks require the attacker to host a payload and then trigger the installation of the payload code.:LEVEL:Medium::
+::SKILL:This attack requires advanced cyber capabilities:LEVEL:High::
+::SKILL:Understanding of low level programming languages or technologies can be very helpful. For example, when reverse engineering a binary file, an understanding of assembly languages can help to determine the purpose and inner-workings of the code. Another example is reverse engineering an application that relies on networking. Here, an understanding networking protocols can provide insight into application details.:LEVEL:High::
+::SKILL:To load malicious script into open, e.g. world writable directory:LEVEL:Low::SKILL:Executing remote scripts on host and collecting output:LEVEL:Medium::
+::SKILL:Knowlegde of the Open Systems Interconnection model (OSI model), and famililarity with Wireshark or some other packet analyzer.:LEVEL:High::
+::SKILL:To inject the malicious payload in a web page:LEVEL:Low::SKILL:To bypass filters in the application:LEVEL:Medium::
+::SKILL:Forge the session credential and reply the request.:LEVEL:Medium::
+::SKILL:To send recursive entity expansion XML messages.:LEVEL:Low::
+::SKILL:No programming skills or computer knowledge is needed. An attacker can easily use this attack pattern following the Execution Flow above.:LEVEL:Low::
+::SKILL:Brute forcing encryption does not require much skill.:LEVEL:Low::
+::SKILL:To send XML messages with maliciously crafted DTDs.:LEVEL:Low::
+::SKILL:The adversary requires privileged credentials or the development/acquiring of a tailored remote access tool.:LEVEL:High::
+::SKILL:To reverse engineer the client-side code to disable/remove the functionality on the client that the server relies on.:LEVEL:High::SKILL:The attacker installs a web tool that allows scripts or the DOM model of web-based applications to be modified before they are executed in a browser. GreaseMonkey and Firebug are two examples of such tools.:LEVEL:Low::
+::SKILL:To achieve a direct connection with the weak or non-existent server session access control, and pose as an authorized user:LEVEL:Low::
+::SKILL:General computer knowledge about how applications are launched, how they interact with input/output, and how they are configured.:LEVEL:Low::
+::SKILL:Although fuzzing parameters is not difficult, and often possible with automated fuzzing tools, interpreting the error conditions and modifying the parameters so as to move further in the process of mapping the application requires detailed knowledge of target platform, the languages and packages used as well as software design.:LEVEL:Medium::
+::SKILL:The attacker needs real-time access to network traffic in such a manner that the attacker can grab needed information from the SSL stream, possibly influence the decided-upon encryption method and options, and perform automated analysis to decipher encrypted material recovered. Tools exist to automate part of the tasks, but to successfully use these tools in an attack scenario requires detailed understanding of the underlying principles.:LEVEL:High::
+::SKILL:To inject a bogus node in the XML routing table:LEVEL:Low::
+::SKILL:The attacker must have fairly detailed knowledge of the syntax and semantics of client/server communications protocols and grammars:LEVEL:Medium::
+::SKILL:Crafting the proper malicious site and luring the victim to this site is not a trivial task.:LEVEL:High::
+::SKILL:Some fingerprinting activity requires very specific knowledge of how different operating systems respond to various TCP/IP requests. Application fingerprinting can be as easy as envoking the application with the correct command line argument, or mouse clicking in the appropriate place on the screen.:LEVEL:Medium::
+::SKILL:How to poison a file with malicious payload that will exploit a vulnerability when the file is opened. The adversary must also know how to place the file onto a system where it will be opened by an unsuspecting party, or force the file to be opened.:LEVEL:Medium::
+::SKILL:Denial of service:LEVEL:Low::SKILL:Arbitrary code execution:LEVEL:High::
+::SKILL:Hijacking a thread involves knowledge of how processes and threads function on the target platform, the design of the target application as well as the ability to identify the primitives to be used or manipulated to hijack the thread.:LEVEL:High::
+::SKILL:The attacker must have a good knowledge of the platform specific mechanisms of signing and verifying code. Most code signing and verification schemes are based on use of cryptography, the attacker needs to have an understand of these cryptographic operations in good detail.:LEVEL:High::
+::SKILL:To inject the malicious payload in a web page:LEVEL:Medium::
+::SKILL:This type of attack may be sophisticated and require knowledge about the system's resources and APIs.:LEVEL:Medium::
+::SKILL:An attacker must have knowledge of XML syntax and constructs in order to successfully leverage XML Injection:LEVEL:Low::
+::SKILL:Being able to run the race requires basic knowledge of concurrent processing including synchonization techniques.:LEVEL:Medium::
+::SKILL:An attacker can inject different representation of a filtered character in a different encoding.:LEVEL:Low::SKILL:An attacker may craft subtle encoding of input data by using the knowledge that he/she has gathered about the target host.:LEVEL:Medium::
+::SKILL:This attack is sophisticated because the attacker has to overcome a few challenges such as creating symlinks on the target host during a precise timing, inserting malicious data in the temporary file and have knowledge about the temporary files created (file name and function which creates them).:LEVEL:Medium::
+::SKILL:Setup DNS server and the adversary's web server. Write a malicious script to allow the victim to connect to the web server.:LEVEL:Medium::
+::SKILL:There is a wide variety of fuzzing tools available.:LEVEL:Low::
+::SKILL:The adversary needs to know certain linux commands for this type of attack.:LEVEL:Low::
+::SKILL:This attack can get sophisticated since the attack has to occur within a short interval of time.:LEVEL:Medium::
+::SKILL:The adversary needs to know how to craft and send protocol commands from the command line or within a tool.:LEVEL:Low::
+::SKILL:The ability to make an API request, and knowledge of ghost characters that will not be filtered by any input validation. These ghost characters must be known to not affect the way in which the request will be interpreted.:LEVEL:Medium::
+::SKILL:To overwrite session cookie data, and submit targeted attacks via HTTP:LEVEL:Low::SKILL:Exploiting a remote buffer overflow generated by attack:LEVEL:High::
+::SKILL:To probe a system remotely without detection requires careful planning and patience.:LEVEL:Medium::
+::SKILL:To place malicious payload on server via HTTP:LEVEL:Low::SKILL:Exploiting any information gathered by HTTP Query on script host:LEVEL:High::
+::SKILL:The attacker has to have detailed knowledge of the HTTP protocol specifics and must also possess exact details on the discrepancies between the two targeted entities in parsing HTTP requests.:LEVEL:High::
+::SKILL:The adversary needs to have a solid understanding of the HTTP protocol and HTTP headers and must be able to craft and inject requests to elicit the split responses.:LEVEL:High::
+::SKILL:A number of web service digging tools are available for free that help discover exposed web services and their interfaces. In the event that a web service is not listed, the attacker does not need to know much more in addition to the format of web service messages that he can sniff/monitor for.:LEVEL:Low::
+::SKILL:The attacker must possess knowledge of client code structure as well as ability to reverse-engineer or decompile it or probe it in other ways. This knowledge is specific to the technology and language used for the client distribution:LEVEL:Medium::
+::SKILL:If the client site token is obfuscated.:LEVEL:Medium::SKILL:If the client site token is encrypted.:LEVEL:High::
+::SKILL:The adversary has only to try IP address format combinations.:LEVEL:Low::
+::SKILL:Ability to discover permissions on terminal devices. Of course, brute force can also be used.:LEVEL:Low::
+::SKILL:The adversary requires strong inter-personal and communication skills.:LEVEL:Low::
+::SKILL:To distribute email:LEVEL:Low::
+::SKILL:It may be trivial to cause a DoS via this attack pattern:LEVEL:Low::SKILL:Causing arbitrary code to execute on the target system.:LEVEL:High::
+::SKILL:Knowledge of various escaping schemes, such as URL escape encoding and XML escape characters.:LEVEL:Medium::
+::SKILL:To modify file, deceive client into downloading, locate and exploit remote stack or heap vulnerability:LEVEL:Medium::
+::SKILL:Understanding of how to force an MD5 hash collision in X.509 certificates:LEVEL:High::SKILL:An attacker must be able to craft two X.509 certificates that produce the same MD5 hash:LEVEL:High::SKILL:Knowledge needed to set up a certification authority:LEVEL:Medium::
+::SKILL:Medium level of cryptography knowledge, specifically how iterative hash functions work. This is needed to select proper padding.:LEVEL:Medium::
+::SKILL:Some knowledge of Java Script:LEVEL:Low::
+::SKILL:Creating malicious Flash or Applet to open a cross-domain socket connection to a remote system:LEVEL:Medium::
+::SKILL:Ability to intercept and modify requests / responses:LEVEL:Low::SKILL:Ability to create iFrame and JavaScript code that would initiate unauthorized requests to sensitive sites from the victim's browser:LEVEL:Medium::SKILL:Solid understanding of the HTTP protocol:LEVEL:Medium::
+::SKILL:An attacker should be able to create a payload and deliver it to the victim's browser.:LEVEL:High::SKILL:An attacker needs to know how to interact with various social networking sites (e.g., via available APIs) to request information and how to send the harvested data back to the attacker.:LEVEL:Medium::
+::SKILL:Ability to craft a CSS injection:LEVEL:High::
+::SKILL:Finding this particular buffer overflow may not be trivial. Also, stack and especially heap based buffer overflows require a lot of knowledge if the intended goal is arbitrary code execution. Not only that the attacker needs to write the shell code to accomplish his or her goals, but the attacker also needs to find a way to get the program execution to jump to the planted shell code. There also needs to be sufficient room for the payload. So not every buffer overflow will be exploitable, even by a skilled attacker.:LEVEL:High::
+::SKILL:Low level knowledge of the various facilities available in different DBMS systems for interacting with the file system and operating system:LEVEL:High::
+::SKILL:Ability to create a malicious library.:LEVEL:Medium::
+::SKILL:Technical understanding of how signature verification algorithms work with data and applications:LEVEL:High::
+::SKILL:Knowledge of common location methods and access methods to sensitive data:LEVEL:Low::SKILL:Ability to compromise systems containing sensitive data:LEVEL:High::
+::SKILL:Cryptanalysis of signature verification algorithm:LEVEL:High::SKILL:Reverse engineering and cryptanalysis of signature verification algorithm implementation:LEVEL:High::
+::SKILL:Attacker needs to understand the layout and composition of data blobs used by the target application.:LEVEL:High::SKILL:To discover a specific vulnerability, attacker needs to reverse engineer signature parsing, signature verification and signer representation code.:LEVEL:High::SKILL:Attacker may be required to create malformed data blobs and know how to insert them in a location that the recipient will visit.:LEVEL:High::
+::SKILL:The attacker may need to continuously monitor a stream of signed data, waiting for an exploitable message to appear.:LEVEL:High::SKILL:Attacker must be able to create malformed data blobs and know how to insert them in a location that the recipient will visit.:LEVEL:High::
+::SKILL:Attacker identifies known local files to exploit:LEVEL:Medium::
+::SKILL:Arbitrary code execution:LEVEL:High::
+::SKILL:Cryptanalysis of signature generation algorithm:LEVEL:High::SKILL:Reverse engineering and cryptanalysis of signature generation algorithm implementation and random number generation:LEVEL:High::SKILL:Ability to create malformed data blobs and know how to present them directly or indirectly to a victim.:LEVEL:High::
+::SKILL:A brute force attack is very straightforward. A variety of password cracking tools are widely available.:LEVEL:Low::
+::SKILL:Given a vulnerable phone system, the attackers' technical vector relies on attacks that are well documented in cracker 'zines and have been around for decades.:LEVEL:Low::
+::SKILL:Brute force attack:LEVEL:Low::SKILL:Social engineering and more sophisticated technical attacks.:LEVEL:Medium::
+::SKILL:The adversary must typically overcome network and host defenses in order to place malware on the system.:LEVEL:High::
+::SKILL:This attack pattern often requires the technical ability to modify a malicious software package (e.g. Zeus) to spider a targeted site and a way to trick a user into a malicious software download.:LEVEL:Medium::
+::SKILL:Intelligence about the manufacturer's operating environment and infrastructure.:LEVEL:Medium::SKILL:Ability to develop, deploy, and maintain a stealth malicious backdoor program remotely in what is essentially a hostile environment.:LEVEL:High::SKILL:Development skills to construct malicious attachments that can be used to exploit vulnerabilities in typical desktop applications or system configurations. The malicious attachments should be crafted well enough to bypass typical defensive systems (IDS, anti-virus, etc):LEVEL:High::
+::SKILL:Intelligence data on victim's purchasing habits.:LEVEL:Medium::SKILL:Resources to maliciously construct/alter hardware components used for testing by the supplier.:LEVEL:High::SKILL:Resources to physically infiltrate supplier.:LEVEL:High::
+::SKILL:Ability to read, interpret, and subsequently alter manufacturer's documentation to prevent dial-down capabilities.:LEVEL:High::SKILL:Ability to stealthly gain access via remote compromise or physical access to the manufacturer's documentation.:LEVEL:High::
+::SKILL:Ability to read, interpret, and subsequently alter manufacturer's documentation to misrepresent system capabilities.:LEVEL:High::SKILL:Ability to stealthly gain access via remote compromise or physical access to the manufacturer's documentation.:LEVEL:High::
+::SKILL:Ability to read, interpret, and subsequently alter manufacturer's documentation to cause errors in system design.:LEVEL:High::SKILL:Ability to stealthly gain access via remote compromise or physical access to the manufacturer's documentation.:LEVEL:High::
+::SKILL:Directory traversal:LEVEL:Medium::SKILL:Execution of arbitrary code:LEVEL:High::
+::SKILL:Resources to maliciously construct components used by the manufacturer.:LEVEL:High::SKILL:Resources to physically infiltrate manufacturer or manufacturer's supplier.:LEVEL:High::
+::SKILL:Ability to read, interpret, and subsequently alter manufacturer's documentation to cause errors in design specifications.:LEVEL:High::SKILL:Ability to stealthly gain access via remote compromise or physical access to the manufacturer's documentation.:LEVEL:High::
+::SKILL:Advanced knowledge of the design of the system.:LEVEL:High::SKILL:Hardware creation and manufacture of replacement components.:LEVEL:High::
+::SKILL:Advanced knowledge of the design of the system and it's operating system components and subcomponents.:LEVEL:High::SKILL:Malicious software creation.:LEVEL:High::
+::SKILL:The adversary must be able to obtain or develop, as well as place malicious software inside the target network/system.:LEVEL:Medium::
+::SKILL:An attacker needs to understand alternate encodings, what the filter looks for and the data format acceptable to the target API:LEVEL:Medium::
+::SKILL:Able to develop and manufacture malicious system components that resemble legitimate name-brand components.:LEVEL:High::
+::SKILL:Able to develop and manufacture malicious system components that perform the same functions and processes as their non-malicious counterparts.:LEVEL:High::
+::SKILL:Able to develop a malicious BIOS image with the original functionality as a normal BIOS image, but with added functionality that allows for later compromise and/or disruption.:LEVEL:High::
+::SKILL:Able to develop malicious code that can be used on the victim's system while maintaining normal functionality.:LEVEL:High::
+::SKILL:Able to develop and manufacture malicious hardware components that perform the same functions and processes as their non-malicious counterparts.:LEVEL:High::
+::SKILL:Ability to generate and inject false data into operational data into a system with the intent of causing the victim to alter the configuration of the system.:LEVEL:High::
+::SKILL:Advanced knowledge about the inclusion and specific usage of an open source code project within system being targeted for infiltration.:LEVEL:High::
+::SKILL:Able to develop and manufacture malicious subroutines for an ASIC environment without degradation of existing functions and processes.:LEVEL:High::
+::SKILL:Although fuzzing parameters is not difficult, and often possible with automated fuzzers, interpreting the error conditions and modifying the parameters so as to move further in the process of mapping the application requires detailed knowledge of target platform, the languages and packages used as well as software design.:LEVEL:Medium::
+::SKILL:The adversary requires the ability to traverse directory structure.:LEVEL:Low::
+::SKILL:A variety of password cracking tools are available that can leverage a rainbow table. The more difficult part is to obtain the password hash(es) in the first place.:LEVEL:Low::
+::SKILL:To insert a network sniffer or other listener into the communication stream:LEVEL:Low::
+::SKILL:It is relatively straightforward to identify an HTTP Get method that changes state on the server side and executes against an over-privileged system interface:LEVEL:Low::
+::SKILL:The adversary needs to know basic linux commands.:LEVEL:Low::
+::SKILL:Requires the ability to write scripts of some complexity and to inject it through user controlled fields in the system.:LEVEL:Medium::
+::SKILL:There are tools to brute force session ID. Those tools require a low level of knowledge.:LEVEL:Low::SKILL:Predicting Session ID may require more computation work which uses advanced analysis such as statistical analysis.:LEVEL:Medium::
+::SKILL:Requires the ability to write malicious scripts and embed them into HTTP requests.:LEVEL:Medium::
+::SKILL:Requires the ability to write scripts of varying complexity and to inject them through user controlled fields within the application.:LEVEL:Medium::
+::SKILL:Exploiting a poorly protected identity token is a well understood attack with many helpful resources available.:LEVEL:Low::
+::SKILL:Simple command line attacks.:LEVEL:Low::SKILL:Programming attacks.:LEVEL:Medium::
+::SKILL:The attacker has to identify injection vector, identify the operating system-specific commands, and optionally collect the output.:LEVEL:Medium::
+::SKILL:If an attacker can steal a valid session ID, he can then try to be authenticated with that stolen session ID.:LEVEL:Low::SKILL:More sophisticated attack can be used to hijack a valid session from a user and spoof a legitimate user by reusing his valid session ID.:LEVEL:Medium::
+::SKILL:This attack can be performed by low capability attackers with freely available tools. Commercial tools are also available that can target select networks or all WiFi networks within a range of several miles.:LEVEL:Low::
+::SKILL:This attack can be performed by low capability attackers with commercially available tools.:LEVEL:Low::
+::SKILL:Adversaries can purchase and implement rogue BTS stations at a cost effective rate, and can push a mobile device to downgrade to a non-secure cellular protocol like 2G over GSM or CDMA.:LEVEL:Medium::
+::SKILL:Adversaries can rent commercial supercomputer time globally to conduct cryptanalysis on encrypted data captured from mobile devices. Foreign governments have their own cryptanalysis technology and capabilities. Commercial cellular standards for encryption (GSM and CDMA) are also subject to adversary cryptanalysis.:LEVEL:Medium::
+::SKILL:Adversaries can purchase hardware and software solutions, or create their own solutions, to capture/intercept cellular radio traffic. The cost of a basic Base Transceiver Station (BTS) to broadcast to local mobile cellular radios in mobile devices has dropped to very affordable costs. The ability of commercial cellular providers to monitor for “rogue” BTS stations is poor in many areas and it is assumed that “rogue” BTS stations exist in urban areas.:LEVEL:Medium::
+::SKILL:Only basic skills are required to determine and fixate session identifiers in a user's browser. Subsequent attacks may require greater skill levels depending on the attackers' motives.:LEVEL:Low::
+::SKILL:Often achieved by nation states in conjunction with commercial cellular providers to conduct cellular traffic intercept and possible traffic injection.:LEVEL:High::
+::SKILL:Adversaries must be able to register DNS hostnames/URL’s.:LEVEL:Low::
+::SKILL:Open source and commercial software tools are available and several commercial advertising companies routinely set up tools to collect and monitor MAC addresses.:LEVEL:Low::
+::SKILL:Open source and commercial software tools are available and open databases of known WiFi SSID addresses are available online.:LEVEL:Low::
+::SKILL:This is a sophisticated attack, but detailed techniques are published in open literature.:LEVEL:Medium::
+::SKILL:Adversaries can often purchase low-cost technology to implement rogue access points.:LEVEL:Low::
+::SKILL:This technique has been demonstrated by amateur hackers and commercial tools and open source projects are available to automate the attack.:LEVEL:Low::
+::SKILL:Open source and commercial tools are available for this attack.:LEVEL:Low::
+::SKILL:Commercial tools are available.:LEVEL:Low::
+::SKILL:The attacker needs to figure out the exact invocation of the targeted malicious action and then craft a link that performs the said action. Having the user click on such a link is often accomplished by sending an email or posting such a link to a bulletin board or the likes.:LEVEL:Medium::
+::SKILL:These attacks generally require sophisticated machine learning techniques and require traffic capture as a prerequisite.:LEVEL:High::
+::SKILL:Sophisticated attack, but detailed techniques published in the open literature.:LEVEL:Medium::
+::SKILL:Sophisticated attack.:LEVEL:High::
+::SKILL:Adversaries require non-trivial technical skills to create and implement fault injection attacks. Although this style of attack has become easier (commercial equipment and training classes are available to perform these attacks), they usual require significant setup and experimentation time during which physical access to the device is required.:LEVEL:High::
+::SKILL:Adversaries require non-trivial technical skills to create and implement fault injection attacks on mobile devices. Although this style of attack has become easier (commercial equipment and training classes are available to perform these attacks), they usual require significant setup and experimentation time during which physical access to the device is required. This prerequisite makes the attack challenging to perform (assuming that physical security countermeasures and monitoring are in place).:LEVEL:High::
+::SKILL:The attacker must know how to make use of these smudges.:LEVEL:Medium::
+::SKILL:The ability to spoof GPS signals is not trival.:LEVEL:High::
+::SKILL:This attack requires advanced knoweldge in GPS technology.:LEVEL:High::
+::SKILL:Knowledge of the affected system, including what devices are connected to it, as well as knowledge of how to extract information from these devices.:LEVEL:High::
+::SKILL:To achieve a redirection and use of less trusted source, an attacker can simply place a script in bulletin board, blog, wiki, or other user-generated content site that are echoed back to other client machines.:LEVEL:Low::SKILL:Exploiting a client side vulnerability to inject malicious scripts into the browser's executable process.:LEVEL:High::
+::SKILL:To deploy a hidden process or malware on the system to automatically collect audio and video data.:LEVEL:High::
+::SKILL:To deploy a hidden process or malware on the system to automatically collect clipboard data.:LEVEL:High::
+::SKILL:An attacker can try special characters in the URL and bypass the URL validation.:LEVEL:Low::SKILL:The attacker may write a script to defeat the input filtering mechanism.:LEVEL:Medium::
+::SKILL:Knowledge of how to load malicious code into the memory space of a running process, as well as the ability to have the running process execute this code. For example, with DLL injection, the adversary must know how to load a DLL into the memory space of another running process, and cause this process to execute the code inside of the DLL.:LEVEL:High::
+::SKILL:Trick the operating system in loading a malicious DLL instead of a legitimate DLL.:LEVEL:High::
+::SKILL:Once the adversary has logical access (which can potentially require high knowledge and skill level), the adversary needs only the capability and facility to navigate the system through the OS graphical user interface or the command line. The adversary, or his malware, can simply employ a set of commands that search for shared drives on the system (e.g., net view remote system or net share).:LEVEL:Low::
+::SKILL:Determine if Lan Man and NT Lan Man authentication is allowed on the server.:LEVEL:Low::SKILL:The adversary uses a third-party tool to obtain hashed credentials to execute the attack.:LEVEL:High::
+::SKILL:Determine if Kerberos authentication is used on the server.:LEVEL:Low::SKILL:The adversary uses a third-party tool to obtain the necessary tickets to execute the attack.:LEVEL:High::
+::SKILL:The adversary needs to be able to infect the victim system in a manner that gives him remote access.:LEVEL:Medium::SKILL:If analyzing the Windows registry, the adversary must understand the registry structure to know where to look for devices.:LEVEL:Medium::
+::SKILL:Once the adversary has logical access (which can potentially require high knowledge and skill level), the adversary needs only the capability and facility to navigate the system through the OS graphical user interface or the command line.:LEVEL:Low::
+::SKILL:Once the adversary has logical access (which can potentially require high knowledge and skill level), the adversary needs only to leverage the relevant command for screen capture.:LEVEL:Low::
+::SKILL:The attacker needs to setup a sniffer for a sufficient period of time so as to capture meaningful quantities of code. The presence of the sniffer should not be detected on the network. Also if the attacker plans to employ a man-in-the-middle attack, the client or server must not realize this. Finally, the attacker needs to regenerate source code from binary code if the need be.:LEVEL:Medium::
+::SKILL:It is fairly simple for someone with basic SQL knowledge to perform SQL injection, in general. In certain instances, however, specific knowledge of the database employed may be required.:LEVEL:Low::
+::SKILL:Subverting code signing is not a trivial activity. Most code signing and verification schemes are based on use of cryptography and the attacker needs to have an understanding of these cryptographic operations in good detail. Additionally the attacker also needs to be aware of the way memory is assigned and accessed by the container since, often, the only way to subvert code signing would be to patch the code in memory. Finally, a knowledge of the platform specific mechanisms of signing and verifying code is a must.:LEVEL:High::
+::SKILL:An attacker can use a tool to scan and automatically launch an attack against known issues. A tool can also repeat a sequence of instructions and try to brute force the service on the host target, an example of that would be the flooding technique.:LEVEL:Low::SKILL:More advanced attack may require knowledge of the protocol spoken by the host service.:LEVEL:Medium::
+::SKILL:Determining the database type and version, as well as the right number and type of parameters to the query being injected in the absence of error messages requires greater skill than reverse-engineering database error messages.:LEVEL:Medium::
+::SKILL:An adversary just needs to gain access to common default usernames/passwords specific to the technologies used by the system. Additionally, a brute force attack leveraging common passwords can be easily realized if the user name is known.:LEVEL:Low::
+::SKILL:An attacker needs to understand Unicode encodings and have an idea (or be able to find out) what system components may not be Unicode aware.:LEVEL:Medium::
+::SKILL:To achieve a redirection and use of less trusted source, an attacker can simply edit data that the host uses to build the filename:LEVEL:Low::SKILL:Deploying a malicious look-a-like site (such as a site masquerading as a bank or online auction site) that the user enters their authentication data into.:LEVEL:Medium::SKILL:Exploiting a client side vulnerability to inject malicious scripts into the browser's executable process.:LEVEL:High::
+::SKILL:The adversary needs to have knowledge of state management as employed by the target application, and also the ability to manipulate the state in a meaningful way.:LEVEL:Medium::
+::SKILL:To identify vulnerable configuration files, and understand how to manipulate servers and erase forensic evidence:LEVEL:Medium::
+::SKILL:To identify file system entry point and execute against an over-privileged system interface:LEVEL:Low::
+::SKILL:The malicious user can easily try some well-known global variables and find one which matches.:LEVEL:Low::SKILL:The attacker can use automated tools to probe for variables that she can control.:LEVEL:Medium::
+::SKILL:The attacker can naively try backslash character and discover that the target host uses it as escape character.:LEVEL:Low::SKILL:The attacker may need deep understanding of the host target in order to exploit the vulnerability. The attacker may also use automated tools to probe for this vulnerability.:LEVEL:Medium::
+::SKILL:An attacker can try variation of the slashes characters.:LEVEL:Low::SKILL:An attacker can use more sophisticated tool or script to scan a website and find a path filtering problem.:LEVEL:Medium::
+::SKILL:An attacker can inject different representation of a filtered character in UTF-8 format.:LEVEL:Low::SKILL:An attacker may craft subtle encoding of input data by using the knowledge that she has gathered about the target host.:LEVEL:Medium::
+::SKILL:To input faked entries into Web logs:LEVEL:Low::
+::SKILL:XPath Injection shares the same basic premises with SQL Injection. An attacker must have knowledge of XPath syntax and constructs in order to successfully leverage XPath Injection:LEVEL:Low::
+::SKILL:Basic understanding of XQuery:LEVEL:Low::
+::SKILL:To land and launch a script on victim's machine with appropriate footprinting logic for enumerating services and vulnerabilities in JavaScript:LEVEL:Medium::
+::SKILL:To achieve a redirection and use of less trusted source, an attacker can simply edit HTTP Headers that are sent to client machine.:LEVEL:Low::SKILL:Exploiting a client side vulnerability to inject malicious scripts into the browser's executable process.:LEVEL:High::
+::SKILL:Forcibly browseable pages can be discovered by using a number of automated tools. Doing the same manually is tedious but by no means difficult.:LEVEL:Low::
+::SKILL:The attacker needs to have knowledge of not only the application to exploit but also the exact nature of commands that pertain to the target operating system. This may involve, though not always, knowledge of specific assembly commands for the platform.:LEVEL:High::
+::SKILL:The attacker needs to be able to poison the resolver - DNS entries or local hosts file or router entry pointing to a trusted DNS server - in order to successfully carry out a pharming attack. Setting up a fake website, identical to the targeted one, does not require special skills.:LEVEL:Medium::
+::SKILL:The attacker needs to have knowledge of observing the protocol exchange and managing the required connections in order to issue and respond to challenges:LEVEL:Medium::
+::SKILL:An attacker can simply overflow an integer by inserting an out of range value.:LEVEL:Low::SKILL:Exploiting a buffer overflow by injecting malicious code into the stack of a software system or even the heap can require a higher skill level.:LEVEL:High::
+::SKILL:This attack can be as simple as adding extra characters to the logged data (e.g. username). Adding entries is typically easier than removing entries.:LEVEL:Low::SKILL:A more sophisticated attack can try to defeat the input validation mechanism.:LEVEL:Medium::
+::SKILL:This attack can get sophisticated since the attack may use cryptography.:LEVEL:Medium::
+::SKILL:This attack can be as simple as reading WSDL and starting sending invalid request.:LEVEL:Low::SKILL:This attack can be used to perform more sophisticated attacks (SQL injection, etc.):LEVEL:Medium::
+::SKILL:Knowledge of how to block access to libraries, as well as knowledge of how to leverage the resulting state of the application based on the failed call.:LEVEL:Low::
+::SKILL:Cryptanalysis generally requires a very significant level of understanding of mathematics and computation.:LEVEL:High::
+::SKILL:Basic knowledge about websites: obtaining them, designing and implementing them, etc.:LEVEL:Medium::
+::SKILL:Denial of service (making the parser crash):LEVEL:Low::SKILL:Arbitrary code execution:LEVEL:High::

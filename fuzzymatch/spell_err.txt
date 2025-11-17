@@ -1,0 +1,97 @@
+Lifing Sensitive Data Embedded in Cache|Lifting Sensitive Data Embedded in Cache|Lifting Sensitive Data Embedded in Cache
+BitSquating|BitSquatting|BitSquatting
+XSS Targting Error Pages|XSS Targeting Error Pages|XSS Targeting Error Pages
+Functionalty Misuse|Functionality Misuse|Functionality Misuse
+Inclution of Code in Existing Process|Inclusion of Code in Existing Process|Inclusion of Code in Existing Process
+Data Injectd During Configuration|Data Injected During Configuration|Data Injected During Configuration
+Electromagnetc Side-Channel Attack|Electromagnetic Side-Channel Attack|Electromagnetic Side-Channel Attack
+Intger Attacks|Integer Attacks|Integer Attacks
+Resourse Leak Exposure|Resource Leak Exposure|Resource Leak Exposure
+Leveragng Race Conditions|Leveraging Race Conditions|Leveraging Race Conditions
+Log Inection-Tampering-Forging|Log Injection-Tampering-Forging|Log Injection-Tampering-Forging
+Cross Fram Scripting (XFS)|Cross Frame Scripting (XFS)|Cross Frame Scripting (XFS)
+XSS Using Doubeled Characters|XSS Using Doubled Characters|XSS Using Doubled Characters
+Transaction or Event Tamperig via Application API Manipulation|Transaction or Event Tampering via Application API Manipulation|Transaction or Event Tampering via Application API Manipulation
+Choosin Message Identifier|Choosing Message Identifier|Choosing Message Identifier
+Unauthrized Use of Device Resources|Unauthorized Use of Device Resources|Unauthorized Use of Device Resources
+Celluar Data Injection|Cellular Data Injection|Cellular Data Injection
+Embedding Script withn Scripts|Embedding Script within Scripts|Embedding Scripts within Scripts
+Reverse Enginer an Executable to Expose Assumed Hidden Functionality or Content|Reverse Engineer an Executable to Expose Assumed Hidden Functionality or Content|Reverse Engineer an Executable to Expose Assumed Hidden Functionality or Content
+Malicous Logic Inserted Into Product Software by Authorized Developer|Malicious Logic Inserted Into Product Software by Authorized Developer|Malicious Logic Inserted Into Product Software by Authorized Developer
+Amplificaton|Amplification|Amplification
+XSS Thru HTTP Query Strings|......|XSS Through HTTP Query Strings
+XML Scema Poisoning|XML Schema Poisoning|XML Schema Poisoning
+Functionalty Bypass|Functionality Bypass|Functionality Bypass
+Windows ::DATA Alternat Data Stream|......|Windows ::DATA Alternate Data Stream
+Influene via Modes of Thinking|Influence via Modes of Thinking|Influence via Modes of Thinking
+Leveragng Active Man in the Middle Attacks to Bypass Same Origin Policy|......|Leveraging Active Man in the Middle Attacks to Bypass Same Origin Policy
+Disble Security Software|Disable Security Software|Disable Security Software
+Artificaily Inflate File Sizes|Artificially Inflate File Sizes|Artificially Inflate File Sizes
+Manipulatin Web Input to File System Calls|Manipulating Web Input to File System Calls|Manipulating Web Input to File System Calls
+HTTP Reqest Splitting|HTTP Request Splitting|HTTP Request Splitting
+IP Adress Blocking|IP Address Blocking|IP Address Blocking
+XSS Using Invald Characters|XSS Using Invalid Characters|XSS Using Invalid Characters
+String Forma Overflow in syslog()|......|String Format Overflow in syslog()
+Force the Sytem to Reset Values|Force the System to Reset Values|Force the System to Reset Values
+Embeed Virus into DLL|Embed Virus into DLL|Embed Virus into DLL
+Navigaton Remapping To Propagate Malicious Content|Navigation Remapping To Propagate Malicious Content|Navigation Remapping To Propagate Malicious Content
+XML Quadratc Expansion|XML Quadratic Expansion|XML Quadratic Expansion
+ICMP IP 'ID' Field Erro Message Probe|......|ICMP IP 'ID' Field Error Message Probe
+Conection Reset|Connection Reset|Connection Reset
+Inten Spoof|Inten Spoof|Intent Spoof
+Manipulatin Opaque Client-based Data Tokens|Manipulating Opaque Client-based Data Tokens|Manipulating Opaque Client-based Data Tokens
+HTTP Reponse Smuggling|HTTP Response Smuggling|HTTP Response Smuggling
+iFram Overlay|iFrame Overlay|iFrame Overlay
+Cross Zon Scripting|Cross-Zone Scripting|Cross Zone Scripting
+Malicous Software Implanted|Malicious Software Implanted|Malicious Software Implanted
+Pretexing|Pretexting|Pretexting
+Escapin a Sandbox by Calling Signed Code in Another Language|Escaping a Sandbox by Calling Signed Code in Another Language|Escaping a Sandbox by Calling Signed Code in Another Language
+Serch Order Hijacking|Search Order Hijacking|Search Order Hijacking
+Counterfiet Organizations|Counterfeit Organizations|Counterfeit Organizations
+Obstructon|Obstruction|Obstruction
+Documentaton Alteration to Produce Under-performing Systems|Documentation Alteration to Produce Under-performing Systems|Documentation Alteration to Produce Under-performing Systems
+Hos Discovery|Host Discovery|Host Discovery
+Web Servces Protocol Manipulation|Web Services Protocol Manipulation|Web Services Protocol Manipulation
+Data Interchage Protocol Manipulation|Data Interchange Protocol Manipulation|Data Interchange Protocol Manipulation
+Lock Pickin|Lock Picking|Lock Picking
+XML Parsr Attack|XML Parser Attack|XML Parser Attack
+Fake the Sourc of Data|Fake the Source of Data|Fake the Source of Data
+TCP Conect Scan|TCP Connect Scan|TCP Connect Scan
+Fault Injction|Fault Injection|Fault Injection
+Quey System for Information|Query System for Information|Query System for Information
+Signatur Spoof|Signature Spoof|Signature Spoof
+HTTP Reponse Splitting|HTTP Response Splitting|HTTP Response Splitting
+Reflecton Injection|Reflection Injection|Reflection Injection
+TCP SYN Png|TCP SYN Ping|TCP SYN Ping
+Using Slases and URL Encoding Combined to Bypass Validation Logic|......|Using Slashes and URL Encoding Combined to Bypass Validation Logic
+Intercepton|Interception|Interception
+Malicous Logic Insertion into Product Software via Inclusion of 3rd Party Component Dependency|Malicious Logic Insertion into Product Software via Inclusion of 3rd Party Component Dependency|Malicious Logic Insertion into Product Software via Inclusion of 3rd Party Component Dependency
+Shared Data Manipulaton|Shared Data Manipulation|Shared Data Manipulation
+TCP Sequenc Number Probe|TCP Sequence Number Probe|TCP Sequence Number Probe
+Excesive Allocation|Excessive Allocation|Excessive Allocation
+Identfy Shared Files/Directories on System|Identify Shared Files/Directories on System|Identify Shared Files/Directories on System
+Leverag Alternate Encoding|Leverage Alternate Encoding|Leverage Alternate Encoding
+DNS Rebindng|DNS Rebinding|DNS Rebinding
+Contaminat Resource|Contaminate Resource|Contaminate Resource
+Forma String Injection|......|Format String Injection
+Instal Rootkit|Install Rootkit|Install Rootkit
+Buffer Overflo via Environment Variables|Buffer Overflow via Environment Variables|Buffer Overflow via Environment Variables
+HTTP Ver Tampering|HTTP Version Tampering|HTTP Verb Tampering
+Replac Binaries|Replace Binaries|Replace Binaries
+Proces Footprinting|Process Footprinting|Process Footprinting
+Blue Boxin|Blue Boxing|Blue Boxing
+Probe Audi and Video Peripherals|Probe Audio and Video Peripherals|Probe Audio and Video Peripherals
+Hardwar Integrity Attack|Hardware Integrity Attack|Hardware Integrity Attack
+Floodin|Flooding|Flooding
+Using Alternatve IP Address Encodings|......|Using Alternative IP Address Encodings
+Bypassng Physical Locks|Bypassing Physical Locks|Bypassing Physical Locks
+Accont Footprinting|Account Footprinting|Account Footprinting
+Paddin Oracle Crypto Attack|Padding Oracle Crypto Attack|Padding Oracle Crypto Attack
+Session Credentil Falsification through Prediction|Session Credential Falsification through Prediction|Session Credential Falsification through Prediction
+Using Malicous Files|......|Using Malicious Files
+Snif Application Code|......|Sniff Application Code
+DTD Inection|DTD Injection|DTD Injection
+Comunication Channel Manipulation|Communication Channel Manipulation|Communication Channel Manipulation
+Acton Spoofing|Action Spoofing|Action Spoofing
+Fuzin|......|Fuzing
+Force Use of Corupt Files|Force Use of Corrupt Files|Force Use of Corrupted Files

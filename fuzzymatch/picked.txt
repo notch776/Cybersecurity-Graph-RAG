@@ -1,0 +1,100 @@
+Lifting Sensitive Data Embedded in Cache
+BitSquatting
+XSS Targeting Error Pages
+Functionality Misuse
+Inclusion of Code in Existing Process
+Data Injected During Configuration
+Electromagnetic Side-Channel Attack
+Integer Attacks
+Resource Leak Exposure
+Leveraging Race Conditions
+Log Injection-Tampering-Forging
+Cross Frame Scripting (XFS)
+XSS Using Doubled Characters
+Transaction or Event Tampering via Application API Manipulation
+Choosing Message Identifier
+Unauthorized Use of Device Resources
+Cellular Data Injection
+Embedding Scripts within Scripts
+Reverse Engineer an Executable to Expose Assumed Hidden Functionality or Content
+Malicious Logic Inserted Into Product Software by Authorized Developer
+Amplification
+XSS Through HTTP Query Strings
+XML Schema Poisoning
+Functionality Bypass
+Windows ::DATA Alternate Data Stream
+Influence via Modes of Thinking
+Leveraging Active Man in the Middle Attacks to Bypass Same Origin Policy
+Disable Security Software
+Artificially Inflate File Sizes
+Manipulating Web Input to File System Calls
+HTTP Request Splitting
+IP Address Blocking
+XSS Using Invalid Characters
+String Format Overflow in syslog()
+Infected Software
+Force the System to Reset Values
+Embed Virus into DLL
+Navigation Remapping To Propagate Malicious Content
+XML Quadratic Expansion
+ICMP IP 'ID' Field Error Message Probe
+Connection Reset
+Intent Spoof
+Manipulating Opaque Client-based Data Tokens
+HTTP Response Smuggling
+iFrame Overlay
+Cross Zone Scripting
+Malicious Software Implanted
+Pretexting
+Escaping a Sandbox by Calling Signed Code in Another Language
+Search Order Hijacking
+Counterfeit Organizations
+Obstruction
+Documentation Alteration to Produce Under-performing Systems
+Host Discovery
+Web Services Protocol Manipulation
+Data Interchange Protocol Manipulation
+Lock Picking
+XML Parser Attack
+Fake the Source of Data
+TCP Connect Scan
+Fault Injection
+Query System for Information
+Signature Spoof
+HTTP Response Splitting
+Reflection Injection
+TCP SYN Ping
+Using Slashes and URL Encoding Combined to Bypass Validation Logic
+Interception
+Malicious Logic Insertion into Product Software via Inclusion of 3rd Party Component Dependency
+Shared Data Manipulation
+TCP Sequence Number Probe
+Excessive Allocation
+Identify Shared Files/Directories on System
+Evercookie
+Leverage Alternate Encoding
+DNS Rebinding
+Contaminate Resource
+Format String Injection
+Install Rootkit
+Buffer Overflow via Environment Variables
+HTTP Verb Tampering
+Replace Binaries
+Process Footprinting
+Blue Boxing
+Probe Audio and Video Peripherals
+Hardware Integrity Attack
+Flooding
+Using Alternative IP Address Encodings
+Bypassing Physical Locks
+Account Footprinting
+Padding Oracle Crypto Attack
+Session Credential Falsification through Prediction
+ICMP Flood
+Using Malicious Files
+Sniff Application Code
+DTD Injection
+Communication Channel Manipulation
+Action Spoofing
+Fuzzing
+Force Use of Corrupted Files
