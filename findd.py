@@ -9,7 +9,6 @@ def init_model():
     try:
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
         print(f"使用设备: {device}")
-        # 使用多语言模型以支持中文
         model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2', device=device)
         print("SentenceTransformer 模型加载成功。")
         return model, device
@@ -17,9 +16,8 @@ def init_model():
         print(f"加载 SentenceTransformer 模型失败: {e}")
         return None, 'cpu'
 
-# 中文判断与转换函数
+
 def contains_chinese(text):
-    """检查字符串是否包含中文字符"""
     for char in text:
         if '\u4e00' <= char <= '\u9fff':
             return True
@@ -35,7 +33,6 @@ def to_pinyin_if_chinese(text):
     else:
         return text.lower()
 
-# 分隔检查是否有corrected实体的函数
 def parse_input_entity(input_entity_str):
     """
     解析输入的实体字符串，支持两种格式:
@@ -59,7 +56,6 @@ def parse_input_entity(input_entity_str):
     else:
         return input_entity_str.strip(), None
 
-# 加载词典数据
 def load_patterns(file_path):
     """
     读取词条和Embedding，返回 (原始词条, 用于匹配的表示, embedding向量) 的元组列表.
@@ -77,7 +73,6 @@ def load_patterns(file_path):
                     original_pattern = parts[0].strip()
                     embedding_str = parts[1].strip()
                     try:
-                        # 解析 embedding 字符串为 numpy 数组
                         embedding_vector = np.fromstring(embedding_str, sep=' ', dtype=np.float32)
                         if original_pattern:
                             matching_representation = to_pinyin_if_chinese(original_pattern)
@@ -92,7 +87,6 @@ def load_patterns(file_path):
         print(f"警告：词典文件未找到: {file_path}")
     return patterns_data
 
-# 字符串匹配函数
 def levenshtein_matching(input_str, patterns_data, fuzzy_threshold=80, corrected_str=None):
     """
     使用Levenshtein距离进行字符串匹配
@@ -110,10 +104,8 @@ def levenshtein_matching(input_str, patterns_data, fuzzy_threshold=80, corrected
     if not patterns_data:
         return None, 0
     
-    # 提取所有用于模糊匹配的表示形式
-    matching_representations = [item[1] for item in patterns_data]
     
-    # 准备输入字符串的匹配表示
+    matching_representations = [item[1] for item in patterns_data]
     input_matching_repr = to_pinyin_if_chinese(input_str)
     
     # 获取原始实体的匹配结果
@@ -124,7 +116,7 @@ def levenshtein_matching(input_str, patterns_data, fuzzy_threshold=80, corrected
     best_match_repr = None
     highest_score = 0
     
-    # 如果有纠正后的实体，也进行匹配并比较分数
+    
     if corrected_str:
         corrected_repr = to_pinyin_if_chinese(corrected_str)
         corrected_match_result = process.extractOne(corrected_repr, 
@@ -156,9 +148,8 @@ def levenshtein_matching(input_str, patterns_data, fuzzy_threshold=80, corrected
             highest_score = original_match_result[1]
             print(f"原始实体 '{input_str}' 的Levenshtein匹配分数: {highest_score:.2f}")
     
-    # 检查是否有高分匹配结果
+    
     if best_match_repr and highest_score >= fuzzy_threshold:
-        # 查找对应的原始实体
         for data in patterns_data:
             if data[1] == best_match_repr:
                 print(f"Levenshtein匹配成功: '{data[0]}' (分数: {highest_score:.2f} >= {fuzzy_threshold})")
@@ -166,7 +157,7 @@ def levenshtein_matching(input_str, patterns_data, fuzzy_threshold=80, corrected
     
     return None, highest_score
 
-# Embedding函数
+
 def get_embedding(text, model):
     """
     使用SentenceTransformer模型生成文本的embedding向量
@@ -188,7 +179,6 @@ def get_embedding(text, model):
         print(f"生成embedding时出错: {e}")
         return None
 
-# 余弦相似度函数
 def cosine_similarity(vec_a, vec_b):
     """计算两个向量之间的余弦相似度"""
     # 检查向量是否有效
@@ -221,22 +211,18 @@ def embedding_matching(input_str, patterns_data, embedding_model, embedding_thre
     Returns:
         matched_entity: 最佳匹配的实体名称，如果无匹配则返回None
     """
-    # 确定要生成embedding的文本
     if corrected_str:
-        # 使用组合方式
         entity_description = f"{corrected_str} | {input_str}"
         print(f"使用组合输入进行余弦相似度计算: '{entity_description}'")
     else:
         entity_description = input_str
     
-    # 生成输入实体的embedding
     input_embedding = get_embedding(entity_description, embedding_model)
     
     if input_embedding is None:
         print("无法生成输入实体的embedding")
         return None
     
-    # 计算余弦相似度
     highest_cosine_sim = -1.0
     best_match_entity = None
     
@@ -246,7 +232,6 @@ def embedding_matching(input_str, patterns_data, embedding_model, embedding_thre
             highest_cosine_sim = cosine_sim
             best_match_entity = original
     
-    # 检查余弦相似度是否高于阈值
     if highest_cosine_sim >= embedding_threshold:
         print(f"余弦相似度匹配成功: '{best_match_entity}' (相似度: {highest_cosine_sim:.4f} >= {embedding_threshold})")
         return best_match_entity
@@ -254,7 +239,6 @@ def embedding_matching(input_str, patterns_data, embedding_model, embedding_thre
         print(f"余弦相似度低于阈值 ({highest_cosine_sim:.4f} < {embedding_threshold})，无匹配结果")
         return None
 
-# 总处理函数 - 作为模块化调用的入口
 def find_closest_pattern(input_entity_str, patterns_data, embedding_model=None, fuzzy_threshold=81, embedding_threshold=0.66):
     """
     查找最接近的匹配实体，综合使用字符串匹配和嵌入向量匹配方法
