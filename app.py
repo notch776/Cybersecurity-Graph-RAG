@@ -9,14 +9,13 @@ from sentence_transformers import SentenceTransformer
 
 app = Flask(__name__)
 
-# 假设这是您要初始化的模型
 embedding_model = None
 
 def init_model():
     try:
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
         print(f"使用设备: {device}")
-        # 使用多语言模型以支持中文
+        
         model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2', device=device)
         print("SentenceTransformer 模型加载成功。")
         return model, device
@@ -26,20 +25,18 @@ def init_model():
 
 @app.route('/', methods=['GET'])
 def show():
-    # 这个视图函数现在只处理GET请求，显示页面
+    
     return render_template('index.html')
 
 @app.route('/', methods=['POST'])
 def process():
-    # 获取前端发送的数据
     data = request.json['data']
     # 将 embedding_model 作为参数传递给 handle2
-    result = handle6(data, embedding_model)  # 传递模型
-    # 返回处理结果
+    result = handle6(data, embedding_model)  
     return jsonify(result=result)
 
 if __name__ == '__main__':
-    embedding_model, device = init_model()  # 在应用启动时初始化模型
+    embedding_model, device = init_model()  
     if embedding_model is not None:
         app.run(debug=True)
     else:
